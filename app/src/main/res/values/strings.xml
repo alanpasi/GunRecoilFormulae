@@ -1,10 +1,11 @@
 <resources>
     <string name="app_name">GunRecoilFormulae</string>
-    <string name="firearmWeight">Firearm Weight</string>
-    <string name="bulletWeight">Bullet Weight</string>
-    <string name="bulletVelocity">Bullet Velocity</string>
-    <string name="powderWeight">Powder Weight</string>
-    <string name="powderVelocity">Powder Velocity</string>
-    <string name="firearmVelocity">Firearm Velocity</string>
-    <string name="recoil">Recoil</string>
+    <string name="firearmWeight">Firearm Weight (lb)</string>
+    <string name="bulletWeight">Bullet Weight (gr)</string>
+    <string name="bulletVelocity">Bullet Velocity (fps)</string>
+    <string name="powderWeight">Powder Weight (gr)</string>
+    <string name="powderVelocity">Powder Velocity (fps)</string>
+    <string name="firearmVelocity">Firearm Velocity (fps)</string>
+    <string name="recoil">Recoil (ft lb)</string>
+    <string name="btnEnergyCalculate">Calcular</string>
 </resources>
