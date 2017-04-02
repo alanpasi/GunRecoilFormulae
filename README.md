@@ -28,3 +28,5 @@ Vpg = Velocity (fps) of propellant gases
 7000 = Conversion factor for grains to pounds
 
 Wf = Weight of firearm in pounds
+
+Source: http://saami.org/PubResources/GunRecoilFormulae.pdf
