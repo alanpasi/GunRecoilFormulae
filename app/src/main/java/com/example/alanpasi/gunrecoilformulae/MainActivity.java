@@ -60,7 +60,8 @@ public class MainActivity extends AppCompatActivity {
         powderWeight = Double.parseDouble(etPowderWeight.getText().toString());
         powderVelocity = Double.parseDouble(etPowderVelocity.getText().toString());
 
-        firearmVelocity = (bulletWeight * bulletVelocity + powderWeight * powderVelocity) / (firearmWeight * 7000d);
+        // powderVelocity = bulletVelocity * 1.5 -> For Pistol & Revolver - SAAMI - GUN RECOIL - TECHNICAL (page 3)
+        firearmVelocity = ((bulletWeight * bulletVelocity) + powderWeight * bulletVelocity * 1.5) / (firearmWeight * 7000d);
         freeRecoilEnergy = (firearmWeight * firearmVelocity * firearmVelocity) / (2 * 32.174);
 
         DecimalFormat decimalFormat = new DecimalFormat("#,###.##");
