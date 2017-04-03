@@ -8,4 +8,6 @@
     <string name="firearmVelocity">Firearm Velocity (fps)</string>
     <string name="recoil">Recoil (ft lb)</string>
     <string name="btnEnergyCalculate">Calcular</string>
+    <string name="lbl_FirearmVelocity">Firearm Velocity (fps)</string>
+    <string name="lbl_FreeRecoilEnergy">Free Recoil Energy (ft lb)</string>
 </resources>
