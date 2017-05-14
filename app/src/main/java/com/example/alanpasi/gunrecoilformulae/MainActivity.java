@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText etBulletWeight;
     private EditText etBulletVelocity;
     private EditText etPowderWeight;
-    private EditText etPowderVelocity;
+//    private EditText etPowderVelocity;
     private EditText etFirearmVelocity;
     private EditText etRecoil;
     private Button btn_EnergyCalculate;
@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         etBulletWeight = (EditText) findViewById(R.id.etBulletWeight);
         etBulletVelocity = (EditText) findViewById(R.id.etBulletvelocity);
         etPowderWeight = (EditText) findViewById(R.id.etPowderWeight);
-        etPowderVelocity = (EditText) findViewById(R.id.etPowderVelocity);
+//        etPowderVelocity = (EditText) findViewById(R.id.etPowderVelocity);
         etFirearmVelocity = (EditText) findViewById(R.id.etFirearmVelocity);
         etRecoil = (EditText) findViewById(R.id.etRecoil);
         btn_EnergyCalculate = (Button) findViewById(R.id.btn_EnergyCaculate);
@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         double bulletWeight;
         double bulletVelocity;
         double powderWeight;
-        double powderVelocity;
+//        double powderVelocity;
         double firearmVelocity;
         double freeRecoilEnergy;
 
@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         bulletWeight = Double.parseDouble(etBulletWeight.getText().toString());
         bulletVelocity = Double.parseDouble(etBulletVelocity.getText().toString());
         powderWeight = Double.parseDouble(etPowderWeight.getText().toString());
-        powderVelocity = Double.parseDouble(etPowderVelocity.getText().toString());
+//        powderVelocity = Double.parseDouble(etPowderVelocity.getText().toString());
 
         // powderVelocity = bulletVelocity * 1.5 -> For Pistol & Revolver - SAAMI - GUN RECOIL - TECHNICAL (page 3)
         firearmVelocity = ((bulletWeight * bulletVelocity) + powderWeight * bulletVelocity * 1.5) / (firearmWeight * 7000d);
